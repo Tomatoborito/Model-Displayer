@@ -1,0 +1,229 @@
+{
+    "asset": {
+        "generator": "Khronos glTF Blender I/O v3.6.27",
+        "version": "2.0"
+    },
+    "extensionsUsed": [
+        "KHR_materials_transmission",
+        "KHR_materials_ior"
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "name": "Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "name": "wd5ffbnaa_LOD0_TIER1_000",
+            "rotation": [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "extensions": {
+                "KHR_materials_transmission": {
+                    "transmissionFactor": 1,
+                    "transmissionTexture": {
+                        "index": 0
+                    }
+                },
+                "KHR_materials_ior": {
+                    "ior": 1.4500000476837158
+                }
+            },
+            "name": "MI_wd5ffbnaa",
+            "normalTexture": {
+                "index": 1
+            },
+            "occlusionTexture": {
+                "index": 2
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 3
+                },
+                "metallicRoughnessTexture": {
+                    "index": 2
+                }
+            },
+            "extras": {
+                "type": "transmission"
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "S_wd5ffbnaa_tier_1",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2,
+                        "TANGENT": 3
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "sampler": 0,
+            "source": 2
+        },
+        {
+            "sampler": 0,
+            "source": 3
+        },
+        {
+            "sampler": 0,
+            "source": 4
+        }
+    ],
+    "images": [
+        {
+            "mimeType": "image/png",
+            "name": "T_wd5ffbnaa_4K_T",
+            "uri": "Textures/T_wd5ffbnaa_4K_T.png"
+        },
+        {
+            "mimeType": "image/png",
+            "name": "T_wd5ffbnaa_4K_N",
+            "uri": "Textures/T_wd5ffbnaa_4K_N.png"
+        },
+        {
+            "mimeType": "image/png",
+            "name": "T_wd5ffbnaa_4K_ORM",
+            "uri": "Textures/T_wd5ffbnaa_4K_ORM.png",
+            "extras": {
+                "compression": "mask"
+            }
+        },
+        {
+            "mimeType": "image/png",
+            "name": "T_wd5ffbnaa_4K_B",
+            "uri": "Textures/T_wd5ffbnaa_4K_B.png"
+        },
+        {
+            "mimeType": "image/png",
+            "name": "T_wd5ffbnaa_4K_H",
+            "uri": "Textures/T_wd5ffbnaa_4K_H.png",
+            "extras": {
+                "textureSlot": "HeightTexture",
+                "compression": "displacement"
+            }
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 2857,
+            "max": [
+                14.230290412902832,
+                8.485689163208008,
+                2.401031017303467
+            ],
+            "min": [
+                -10.903675079345703,
+                -5.371572494506836,
+                -3.321995973587036
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 2857,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 2857,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 2857,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5123,
+            "count": 15018,
+            "type": "SCALAR"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 34284,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 34284,
+            "byteOffset": 34284,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 22856,
+            "byteOffset": 68568,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 45712,
+            "byteOffset": 91424,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 30036,
+            "byteOffset": 137136,
+            "target": 34963
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 167172,
+            "uri": "wd5ffbnaa_tier_1.bin"
+        }
+    ]
+}
